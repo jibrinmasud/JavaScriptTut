@@ -63,4 +63,14 @@ var area1 = area(10, 30);
 console.log(area1);
 
 //Objects
+var students = {
+    firstname: "john",
+    lastname: "Moses",
+    age: 9
+}
+console.log(students.firstname);
+
+//create new empty obejects
+
+var student1 = new Object();
 
