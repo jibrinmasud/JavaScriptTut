@@ -42,3 +42,25 @@ if(index > -1){
 console.log(index);
 
 console.log(Student);
+
+
+//loops
+var total = 10;
+for(var x = 0; x <total; x++){
+    console.log(x);
+}
+var Student2 = ["Abu", "musa", "Ali","Fatima", "Safiya"];
+for(var index = 0; index <Student2.length; index++){
+    console.log(Student2[index]);
+}
+
+//functions
+
+function area(length, width){
+    return length * width;
+}
+var area1 = area(10, 30);
+console.log(area1);
+
+//Objects
+
